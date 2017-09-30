@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="net.sf.odinms.web">
+        <wb-resource deploy-path="/" source-path="/web"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/java#"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/java"/>
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/net.sf.odinms/net.sf.odinms">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/EclipseWorkspace/OdinMS3rdParty/slf4j-1.4.3/slf4j-1.4.3/slf4j-jdk14-1.4.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/EclipseWorkspace/OdinMS3rdParty/slf4j-1.4.3/slf4j-1.4.3/slf4j-api-1.4.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/EclipseWorkspace/OdinMS3rdParty/mina-1.1.5/mina-core-1.1.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="net.sf.odinms.web"/>
+        <property name="java-output-path" value="build/classes"/>
+    </wb-module>
+</project-modules>
